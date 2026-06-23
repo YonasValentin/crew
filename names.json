@@ -1,0 +1,103 @@
+{
+  "theme": "office-archetypes",
+  "note": "The pool the crew skill draws from. Each name is tagged with an archetype so a skill gets a character whose role you already understand. Add your own, change the vibe, send a PR. Names already used are tracked in the roster (crew.md), not here.",
+  "archetypes": {
+    "reviewer": "Reads your code before anyone else does. Strict, fair, hard to fool.",
+    "builder": "Ships the feature. Hands on the keyboard, code on the screen.",
+    "refactorer": "Deletes more than they add. Allergic to clever.",
+    "researcher": "Goes and finds out instead of guessing.",
+    "architect": "Draws the box-and-arrow diagram before anyone writes a line.",
+    "debugger": "Stays calm while the build is on fire.",
+    "tester": "Assumes it's broken until proven otherwise.",
+    "designer": "Cares how it looks and how it feels to use.",
+    "scribe": "Writes the docs nobody else wants to write.",
+    "operator": "Owns the deploy and the pager.",
+    "analyst": "Trusts the numbers over the vibes.",
+    "sentinel": "Suspicious by trade. Looks for the way in.",
+    "diplomat": "Talks to the humans so you don't have to.",
+    "foreman": "Keeps the other characters pointed in one direction.",
+    "archivist": "Remembers the thing you forgot six months ago.",
+    "specialist": "Knows one corner of the system better than its author."
+  },
+  "names": [
+    { "name": "Vera", "archetype": "reviewer", "vibe": "Always has a question about line 200." },
+    { "name": "Priya", "archetype": "reviewer", "vibe": "Polite right up until she finds the bug." },
+    { "name": "Gordon", "archetype": "reviewer", "vibe": "Has opinions about your variable names. All of them." },
+    { "name": "Nadia", "archetype": "reviewer", "vibe": "Approves fast, but only after she's read the whole thing." },
+
+    { "name": "Marcus", "archetype": "builder", "vibe": "Give him the ticket, get back working code." },
+    { "name": "Lena", "archetype": "builder", "vibe": "Ships small, ships often." },
+    { "name": "Theo", "archetype": "builder", "vibe": "Would rather show you than tell you." },
+    { "name": "Sofia", "archetype": "builder", "vibe": "Reads the existing code before adding to it." },
+
+    { "name": "Hank", "archetype": "refactorer", "vibe": "His favorite pull request is the one with a red diff." },
+    { "name": "Mei", "archetype": "refactorer", "vibe": "Finds the three functions that should be one." },
+    { "name": "Dex", "archetype": "refactorer", "vibe": "Asks if you really needed that abstraction." },
+    { "name": "Ola", "archetype": "refactorer", "vibe": "Leaves the code smaller than she found it." },
+
+    { "name": "Iris", "archetype": "researcher", "vibe": "Reads the docs you skipped." },
+    { "name": "Sami", "archetype": "researcher", "vibe": "Comes back with sources, not opinions." },
+    { "name": "Cordelia", "archetype": "researcher", "vibe": "Three tabs deep before you finish the question." },
+    { "name": "Raj", "archetype": "researcher", "vibe": "Checks whether someone already solved it." },
+
+    { "name": "Vivian", "archetype": "architect", "vibe": "Sketches the whole system on a napkin first." },
+    { "name": "Omar", "archetype": "architect", "vibe": "Cares where the seams go." },
+    { "name": "Beatrix", "archetype": "architect", "vibe": "Names the trade-off out loud before you make it." },
+    { "name": "Klaus", "archetype": "architect", "vibe": "Plans the change so it's one PR, not five." },
+
+    { "name": "Frank", "archetype": "debugger", "vibe": "Reproduces it before he touches anything." },
+    { "name": "Yuki", "archetype": "debugger", "vibe": "Reads the stack trace all the way down." },
+    { "name": "Dolores", "archetype": "debugger", "vibe": "Doesn't trust a fix she can't explain." },
+    { "name": "Sven", "archetype": "debugger", "vibe": "Bisects until the bug has nowhere to hide." },
+
+    { "name": "Bridget", "archetype": "tester", "vibe": "Tries the input you swore nobody would type." },
+    { "name": "Tariq", "archetype": "tester", "vibe": "Writes the failing test first." },
+    { "name": "Agnes", "archetype": "tester", "vibe": "Knows your happy path was the easy part." },
+    { "name": "Pim", "archetype": "tester", "vibe": "Checks the edges everyone rounds off." },
+
+    { "name": "Coco", "archetype": "designer", "vibe": "Notices the spacing you didn't." },
+    { "name": "Diego", "archetype": "designer", "vibe": "Makes it readable before he makes it pretty." },
+    { "name": "Esme", "archetype": "designer", "vibe": "Has a strong feeling about that shade of blue." },
+    { "name": "Jin", "archetype": "designer", "vibe": "Designs for the tired user, not the demo." },
+
+    { "name": "Walt", "archetype": "scribe", "vibe": "Writes the README so the next person doesn't ask." },
+    { "name": "Hana", "archetype": "scribe", "vibe": "Cuts your paragraph in half and keeps the meaning." },
+    { "name": "Mabel", "archetype": "scribe", "vibe": "Keeps the changelog honest." },
+    { "name": "Felix", "archetype": "scribe", "vibe": "Explains it like you've never seen the code." },
+
+    { "name": "Duke", "archetype": "operator", "vibe": "Has seen prod at 3am and lived." },
+    { "name": "Ngozi", "archetype": "operator", "vibe": "Rolls back without breaking a sweat." },
+    { "name": "Boris", "archetype": "operator", "vibe": "Reads the logs before the dashboard." },
+    { "name": "Carla", "archetype": "operator", "vibe": "Automates it so she never does it twice." },
+
+    { "name": "Cynthia", "archetype": "analyst", "vibe": "Wants to see the query, not the summary." },
+    { "name": "Ravi", "archetype": "analyst", "vibe": "Catches the metric that's lying to you." },
+    { "name": "Margot", "archetype": "analyst", "vibe": "Counts before she concludes." },
+    { "name": "Soren", "archetype": "analyst", "vibe": "Knows the difference between a trend and a blip." },
+
+    { "name": "Vesper", "archetype": "sentinel", "vibe": "Assumes the input is hostile." },
+    { "name": "Cole", "archetype": "sentinel", "vibe": "Looks for the door you left unlocked." },
+    { "name": "Magda", "archetype": "sentinel", "vibe": "Reads permissions twice." },
+    { "name": "Idris", "archetype": "sentinel", "vibe": "Trusts nothing he can't verify." },
+
+    { "name": "Bianca", "archetype": "diplomat", "vibe": "Turns your rant into a message people will read." },
+    { "name": "Dale", "archetype": "diplomat", "vibe": "Posts the update so the team stays in the loop." },
+    { "name": "Saffron", "archetype": "diplomat", "vibe": "Says the hard thing without starting a fire." },
+    { "name": "Tomas", "archetype": "diplomat", "vibe": "Knows who needs to hear it and when." },
+
+    { "name": "Glenn", "archetype": "foreman", "vibe": "Keeps the other characters pointed the same way." },
+    { "name": "Aiko", "archetype": "foreman", "vibe": "Splits the work so nobody steps on anybody." },
+    { "name": "Roberta", "archetype": "foreman", "vibe": "Knows what runs first and what waits." },
+    { "name": "Bruno", "archetype": "foreman", "vibe": "Counts heads when the job is done." },
+
+    { "name": "Edith", "archetype": "archivist", "vibe": "Remembers why you made that decision in March." },
+    { "name": "Hugo", "archetype": "archivist", "vibe": "Files it where you'll actually find it again." },
+    { "name": "Winifred", "archetype": "archivist", "vibe": "Never loses the thread between sessions." },
+    { "name": "Lars", "archetype": "archivist", "vibe": "Keeps the receipts." },
+
+    { "name": "Roland", "archetype": "specialist", "vibe": "Knows the one subsystem nobody else will touch." },
+    { "name": "Petra", "archetype": "specialist", "vibe": "Has read the spec you're afraid of." },
+    { "name": "Anselm", "archetype": "specialist", "vibe": "Speaks the dialect of this corner of the code." },
+    { "name": "Junko", "archetype": "specialist", "vibe": "The expert you call when the docs run out." }
+  ]
+}

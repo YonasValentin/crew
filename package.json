@@ -1,0 +1,49 @@
+{
+  "name": "claude-crew",
+  "version": "0.1.0",
+  "description": "Give your Claude Code skills memorable human characters so you remember which ones you have.",
+  "type": "module",
+  "bin": {
+    "claude-crew": "install.mjs"
+  },
+  "scripts": {
+    "test": "node hooks/crew-induct.mjs --selftest",
+    "setup": "node install.mjs",
+    "teardown": "node uninstall.mjs"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "claude-code-skill",
+    "claude-skill",
+    "agent-skills",
+    "skill",
+    "skills",
+    "hooks",
+    "developer-tools",
+    "productivity",
+    "cli",
+    "ai"
+  ],
+  "license": "MIT",
+  "author": "Yonas Valentin",
+  "homepage": "https://github.com/YonasValentin/crew#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YonasValentin/crew.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YonasValentin/crew/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "SKILL.md",
+    "names.json",
+    "crew.example.md",
+    "hooks/",
+    "install.mjs",
+    "uninstall.mjs"
+  ]
+}
